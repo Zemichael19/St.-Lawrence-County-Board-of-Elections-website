@@ -1,0 +1,91 @@
+body {
+
+  font-family: "Arial", sans-serif;
+  background-image: url("https://storage.needpix.com/rsynced_images/autumn-leaves-2939277_1280.jpg");
+  height: 100%; /* in order to have the background image fully occupy the window */
+
+  /* positioning the background image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 7%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+
+header {
+  background: #DAB89C;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 1.5%;
+}
+
+  /* details of the navigationBars */
+  .navigationBar {
+
+    background-color: #87440C;
+    overflow: hidden;
+  }
+
+  /* wording on the navigationBars */
+  .navigationBar a {
+    padding: 14px 16px;
+    float: left;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  /* the dropdown navigationBar */
+  .dropdown .dropdown2 {
+    font-size: 16px;
+    border: none;
+    background-color: #87440C;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    margin: 0;
+  }
+
+  /* background color to the navigationBars on hover */
+  .navigationBar a:hover, .dropdown:hover .dropdown2 {
+    background-color: #C4844E;
+  }
+
+  /* Dropdown content (hidden by default) */
+  .dropdown-stuff {
+    display: none;
+    position: absolute;
+    background-color: #C4844E;
+    min-width: 100px;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-stuff a {
+    float: none;
+    color: #4E2B0F;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  /* background color of the links while hovering that matches the rest of the navigationBar  */
+  .dropdown-stuff a:hover {
+    background-color: #C4844E;
+  }
+
+  /* display the dropdown menu */
+  .dropdown:hover .dropdown-stuff {
+    display: block;
+  }
