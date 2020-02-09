@@ -14,4 +14,6 @@ Citations: 1. https://stackoverflow.com/questions/1263074/how-do-i-reduce-the-ve
 
           6. https://www.w3schools.com/howto/howto_js_dropdown.asp I used this site to style my dropdown menu
 
-          7. https://www.w3schools.com/html/html_tables.asp I used this site for tables. 
+          7. https://www.w3schools.com/html/html_tables.asp I used this site for tables.
+
+          8. https://htmlcolorcodes.com I used this site to get color codes for the stylings 
