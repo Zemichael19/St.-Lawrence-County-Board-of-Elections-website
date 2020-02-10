@@ -30,7 +30,7 @@
         table, th, td {
           border: 5px solid brown;
           border-collapse: collapse;
-          padding-left: 5%;
+          padding-left: 15%;
           padding-right: 5%;
           vertical-align: bottom;
         }
@@ -61,22 +61,33 @@
       <h1 style="color:White";>St. Lawrence County Board of Elections</h1>
 
       <body>
-          <table style="width:100%">
+        <table class="table">
+          <thead class="thead-dark">
             <tr>
-              <th>Presidential Primary</th>
-              <th>April 28, 2020</th>
+              <th scope="col">#</th>
+              <th scope="col">Elections</th>
+              <th scope="col">Date</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Presidential Primary</td>
+              <td>April 28 2020</td>
 
             </tr>
             <tr>
-              <td>Federal State and Local Primary</td>
-              <td>June 23, 2020</td>
-
+              <th scope="row">2</th>
+              <td>Federal, State and Local Primary</td>
+              <td>June 23 2020</td>
             </tr>
             <tr>
-              <td>General Election</td>
-              <td>November 3, 2020</td>
-
+              <th scope="row">3</th>
+              <td>General Elections</td>
+              <td>November 3 2020</td>
             </tr>
+          </tbody>
           </table>
         <footer>
            <ul>80 State Highway 310</ul>
