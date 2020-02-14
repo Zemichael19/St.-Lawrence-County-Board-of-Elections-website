@@ -31,7 +31,7 @@ Overall comments on grading questions:
 3) Are the pages tolerably styled with Bootstrap?
     -  You mentioned that you used more custom CSS than Bootstrap, but I'm actually seeing no Bootstrap at all.
     - The fixed-width header image causes alignment issues at most screen widths.
-    - Longer text gets harder to read when it is centered.
+    - Bulleted lists don't look right centered. Longer text also gets harder to read that way.
     - Content on some of the pages could use more of a left and/or right margin.
     - The address information is seems out of place on most pages because of how it's aligned.
     - The footer would look more like a footer spread out along the bottom, with a brown background like the header.
